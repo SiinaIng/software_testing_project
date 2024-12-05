@@ -11,3 +11,18 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+
+
+
+## From the src folder, we will be testing the following functions: 
+
+add.js
+filter.js
+isObjectLike.js
+capitalize.js
+isEmpty.js
+upperFirst.js
+ceil.js
+map.js
+reduce.js
+words.js
