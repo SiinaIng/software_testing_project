@@ -26,3 +26,5 @@ ceil.js
 map.js
 reduce.js
 words.js
+
+[![Coverage Status](https://coveralls.io/repos/github/SiinaIng/software_testing_project/badge.svg?branch=master)](https://coveralls.io/github/SiinaIng/software_testing_project?branch=master)
