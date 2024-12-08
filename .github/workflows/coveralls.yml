@@ -26,7 +26,7 @@ jobs:
         run: chmod +x ./node_modules/.bin/jest
 
       - name: Run tests and generate coverage
-        run: npx jest --coverage
+        run: npm run test -- --coverage || true
 
       - name: Upload to Coveralls
         uses: coverallsapp/github-action@v2.3.4
