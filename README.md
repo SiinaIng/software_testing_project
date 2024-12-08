@@ -12,8 +12,6 @@ Source code folder contains a separate license file that must **NOT** be removed
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
 
-
-
 ## From the src folder, we will be testing the following functions: 
 
 add.js
@@ -26,3 +24,6 @@ ceil.js
 map.js
 reduce.js
 words.js
+
+## Coveralls
+[![Coverage Status](https://coveralls.io/repos/github/SiinaIng/software_testing_project/badge.svg?branch=master)](https://coveralls.io/github/SiinaIng/software_testing_project?branch=master)
