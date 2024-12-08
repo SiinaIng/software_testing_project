@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
-    "test-coverage": "jest --coverage"
+    "test": "jest"
   },
   "author": "",
   "license": "MIT",
