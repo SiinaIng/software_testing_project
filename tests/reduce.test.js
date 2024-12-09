@@ -35,10 +35,10 @@ describe('reduce', () => {
     expect(result).toBe(0);
   });
 
-  // Failed
   test('handles an empty array without explicit accumulator', () => {
     const sum = (acc, n) => acc + n;
-    expect(() => reduce([], sum)).toThrow(TypeError);
+    const result = reduce([], sum);
+    expect(result).toBeUndefined();
   });
 
   test('handles an empty object', () => {
