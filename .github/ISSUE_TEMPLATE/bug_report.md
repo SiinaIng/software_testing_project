@@ -25,3 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Severity: XXX**
 Write severity eg. minor/moderate/major etc. and describe why
+
+**Environment**
+- OS: [e.g., Windows 10]
+- Node.js Version: [e.g., 16.10.0]
+- Additional Dependencies: [e.g., lodash v4.17.21]
