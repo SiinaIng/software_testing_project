@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Testing unit functions for course COMP.SE.200 as part of an assignment",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
@@ -11,15 +10,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    },
-    "collectCoverage": true,
-    "coverageDirectory": "coverage"
   }
 }
