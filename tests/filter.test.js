@@ -6,7 +6,7 @@ test('filters elements based on simple predicate', () => {
     expect(result).toEqual([3,4]); 
 });
 
-/* Failed
+// Failed
 test('returns [] if no elements match predicate', () => {
     const numbers = [0,1,2,3,4];
     const result = filter(numbers, (i) => i > 5);
@@ -23,7 +23,7 @@ test('handles null or undefined input array', () => {
     expect(filter(undefined, () => true)).toEqual([]);
 });
 
-*/
+
 test('filters elements based on property', () => {
     const users = [
         { 'user': 'barney', 'active': true },
