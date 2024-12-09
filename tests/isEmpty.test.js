@@ -125,4 +125,19 @@ describe('isEmpty', () => {
     const strObj = new String('hello')
     expect(isEmpty(strObj)).toBe(false)
   })
+  
+  // Testing empty prototype to return true.
+  test('should return true for an empty prototype object', () => {
+    function MyConstructor() {}
+    const protoObj = new MyConstructor();
+    expect(isEmpty(protoObj)).toBe(true);
+  });
+
+  // Testing non-empty prototype to return false.
+  test('should return false for a non-empty prototype object', () => {
+    function MyConstructor() {}
+    const protoObj = new MyConstructor();
+    protoObj.someProperty = 'value';
+    expect(isEmpty(protoObj)).toBe(false);
+  });
 })
