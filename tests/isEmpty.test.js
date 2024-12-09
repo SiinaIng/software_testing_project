@@ -140,4 +140,16 @@ describe('isEmpty', () => {
     protoObj.someProperty = 'value';
     expect(isEmpty(protoObj)).toBe(false);
   });
+  
+  // Testing empty object without prototype to return true.
+  test('should return true for a regular empty object', () => {
+    const obj = {};
+    expect(isEmpty(obj)).toBe(true);
+  });
+
+  // Testing object with keys to return false.
+  test('should return false for a non-empty regular object', () => {
+    const obj = { key: 'value' };
+    expect(isEmpty(obj)).toBe(false);
+  });
 })
