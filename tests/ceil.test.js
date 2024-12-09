@@ -31,9 +31,10 @@ describe('ceil', () => {
     expect(ceil(NaN)).toBeNaN();
   });
 
+  // Failed
   // Testing to handle invalid or missing precision.
   test('handles invalid or missing precision', () => {
-    expect(ceil(5.678, undefined)).toBe(6);
-    expect(() => ceil(5.678, 'a')).toThrow();
+    expect(ceil(5.678, undefined)).toBe(6); // undefined precision
+    expect(() => ceil(5.678, 'a')).toThrow(); //invalid precision
   });
 });
